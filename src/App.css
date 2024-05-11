@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.gradiant-text {
+    -webkit-background-clip: text;
+    @apply bg-gradient-to-t from-blue-500 to-cyan-500 text-transparent;
+    overflow: hidden;
+    border-right: 2px solid #fff;
+    animation: typing-text steps(40) 3s infinite, blink ease 0.3s infinite;
+    text-wrap: nowrap;
+    display: inline-block;
+    width: max-content;
+    width: 0;
+}
+
+@keyframes typing-text {
+    from {
+        width: 0%;
+    } 
+    to {
+        width: 350px;
+    }
+}
+
+@keyframes typing-text {
+    to {
+        border-color: transparent;
+    }
+}
+@keyframes animateLeftToRight {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .icon-link {
+    animation: animateLeftToRight 0.5s ease-in-out;
+  }
+   /* Define the keyframes for the fade-in-up animation */
+   @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Apply the animation to the aboutme section */
+  #aboutme {
+    animation: fadeInUp 1s ease-in-out;
+  }
+
+  
+  .border:hover {
+    transform: scale(1.05); /* Zoom out effect */
+  }
+  
