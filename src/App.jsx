@@ -138,7 +138,7 @@ function App() {
   <div className="max-w-6xl mx-auto px-4">
   <h2 className="text-4xl font-semibold mb-6 gradiant-text " style={{ textShadow: '0px 12px 25px rgba(0, 150, 255)' }}>About Me</h2>
  <p className="text-lg mb-4 text-justify">
-      My name is <span className="font-semibold text-blue-400">Samruddhi Rajendra Patil</span>. I was born on <span className="font-semibold text-blue-400">16th Oct 2002</span> in a small village called Bhadole, located in Hatkanangle Taluka of Kolhapur District. I am proud to belong to the <span className="font-semibold text-blue-400">Maratha</span> community and carry the Indian nationality. I am focused on my personal and professional growth. I am fluent in <span className="font-semibold text-blue-400">English</span>, <span className="font-semibold text-blue-400">Hindi</span>, and <span className="font-semibold text-blue-400">Marathi</span>, which enables me to communicate effectively with diverse groups of people.
+      My name is <span className="font-semibold text-blue-400">Samruddhi Rajendra Patil</span>. I was born on <span className="font-semibold text-blue-400">16th Oct 2002</span> in a small village called Bhadole, located in Hatkanangle Taluka of Kolhapur District. I am belonging to the <span className="font-semibold text-blue-400">Maratha</span> community and carry the Indian nationality. I am focused on my personal and professional growth. I am fluent in <span className="font-semibold text-blue-400">English</span>, <span className="font-semibold text-blue-400">Hindi</span>, and <span className="font-semibold text-blue-400">Marathi</span>, which enables me to communicate effectively with diverse groups of people.
       <br /><br />
       Apart from academics and work, I have a passion for <span className="font-semibold text-blue-400">helping people</span> and believe in giving back to society. I find joy in <span className="font-semibold text-blue-400">spending quality time with my family</span> and cherish the moments spent together. When I'm not working, you can often find me engaged in activities that nurture my personal interests and hobbies.<br/><br/> My address is <span className="font-semibold text-blue-400">A/p – Bhadole, Tal: Hatkanangle, Dist: Kolhapur (416112)</span>. This serene village is not just my home but also a source of inspiration that keeps me grounded and connected to my roots.
     </p>
@@ -151,10 +151,10 @@ function App() {
 
         {/* Projects section */}
         <section id="projects">
-          <div className="container m-auto px-4 sm:py-12 ">
-            <h2 className="text-4xl font-semibold mb-6 gradiant-text" style={{ textShadow: '0px 12px 25px rgba(0, 150, 255)' }}>Projects</h2>
-            <div className="flex flex-col sm:flex-row gap-10 mt-11">
-              <div className="border border-gray-500 rounded-md p-5 bg-white text-black hover: transform: scale(1.05) flex-1" style={{ boxShadow: '0 0 10px 10px rgba(0, 150, 255)' }}>
+          <div className="container m-auto px-4 sm:py-12 py-12 mt-20 max-w-5xl ">
+            <h2 className="text-4xl font-semibold mb-6 gradiant-text" style={{ textShadow: '0px 12px 25px rgba(0, 150, 255)' }}>Some Latest Projects</h2>
+            <div className="flex flex-col sm:flex-row gap-10 mt-15 ">
+              <div className="border border-gray-500 mr-10 rounded-md p-5 bg-white text-black hover: transform: scale(1.05) flex-1" style={{ boxShadow: '0 0 10px 10px rgba(0, 150, 255)' }}>
               <img src={Project1} className="w-full h-auto" alt="Project 1" />
           <h3 className="text-black text-2xl font-semibold mt-8">Parellel Wireless Landing Page</h3>
           <p className="text-black text-sm mt-2">Responsive HTML/CSS/JS. HTML5, CSS3 (SCSS)</p>
@@ -176,7 +176,7 @@ function App() {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row  gap-10 mt-11 ">
-              <div className="border border-gray-500 rounded-md p-5 flex-1 bg-white text-black"style={{ boxShadow: '0 0 10px 10px rgba(0, 150, 255)' }}>
+              <div className="border border-gray-500 rounded-md p-5 mr-10 flex-1 bg-white text-black"style={{ boxShadow: '0 0 10px 10px rgba(0, 150, 255)' }}>
               <img src={Project3} className="w-full h-auto" />
                                 <h3 className="text-black text-2xl font-semibold mt-8">
                                 API-Fetching Ecommerce Web 
@@ -338,7 +338,7 @@ function App() {
               </div>
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                Quick Learnig
+                Quick Learning
                 </p>
               </div>
              
