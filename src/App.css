@@ -68,4 +68,343 @@ body {
   .border:hover {
     transform: scale(1.05); /* Zoom out effect */
   }
+ 
+
+  /* responsive.css */
+
+/* Header section */
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Adjust header font size for smaller screens */
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 24px;
+  }
+}
+
+/* About section */
+.about {
+  padding: 20px;
+}
+
+/* Adjust about section layout for smaller screens */
+@media screen and (max-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Portfolio section */
+.portfolio {
+  padding: 20px;
+}
+
+/* Adjust portfolio grid layout for smaller screens */
+@media screen and (max-width: 768px) {
+  .portfolio {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Project cards */
+.project-card {
+  margin: 20px;
+}
+
+/* Adjust project card layout for smaller screens */
+@media screen and (max-width: 768px) {
+  .project-card {
+    margin: 10px;
+  }
+}
+
+/* Contact section */
+.contact {
+  padding: 20px;
+}
+
+/* Adjust contact form layout for smaller screens */
+@media screen and (max-width: 768px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Footer section */
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Adjust footer font size for smaller screens */
+@media screen and (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@keyframes bounce-from-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes bounce-from-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-left {
+  animation: bounce-from-left 1s ease forwards;
+}
+
+.animate-right {
+  animation: bounce-from-right 1s ease forwards;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.relatives {
+  width: 100%;
+  z-index: 1;
+  border-radius: 253px;
+  animation-name: float;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.animate-zoom-out {
+  animation: zoom-out 5s infinite alternate;
+}
+
+@media (max-width: 768px) {
+  .animate-zoom-out {
+    animation-duration: 3s;
+  }
+}
+
+@media (max-width: 480px) {
+  .animate-zoom-out {
+    animation-duration: 2s;
+    animation-iteration-count: 3; /* Reduce the iteration for smaller screens */
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.project-card {
+  opacity: 0.5; /* Initial opacity */
+  transition: opacity 0.3s ease; /* Smooth transition effect */
+  animation: bounce 0.8s ease infinite; /* Apply the bounce animation */
+}
+
+.project-card:hover {
+  opacity: 1; /* Remove opacity on hover */
+  transform: scale(1.05); /* Zoom out effect */
+}
+.animate-graph {
+  background-color: blue; /* Change the background color to blue */
+  border-radius: 50%; /* Make it circular */
+  animation: fillGraph 2s forwards;
+}
+
+@keyframes fillGraph {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+/* Define the animated and bounce classes for the bounce effect */
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.bounce-effect {
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.progress-bar-structure {
+
+  align-items: center;
+}
+
+.progress-step {
+ 
+  display: flex;
+  align-items: center;
+}
+
+.step-indicator {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step-number {
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.step-content {
+  margin-left: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
   
+}
+
+.progress-step.completed .step-indicator {
+  background-color: #007bff;
+}
+
+.progress-step.completed .step-content {
+  opacity: 1;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.step-indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc;
+  float: left;
+}
+
+.step-indicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc;
+  float: left;
+  position: relative;
+  left: -10px;
+}
+
+.first-indicator {
+  margin-top: 0;
+}
+
+.connector-line {
+  width: 50px; /* Adjust as needed */
+  height: 2px;
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  left: -20px; /* Adjust to match the width of the step indicator */
+  z-index: -1;
+}
+
+.year-indicator {
+  position: relative;
+}
+
+.progress-step.completed .step-indicator {
+  background-color: #007bff;
+}
+
+.des {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.floating {
+  animation: floatingAnimation 3s infinite alternate;
+}
+
+@keyframes floatingAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
