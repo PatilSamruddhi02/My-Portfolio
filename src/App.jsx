@@ -322,7 +322,7 @@ function App() {
            {/* Technoglies section */}
            <section className="py-10" id="technologies">
   <div className="container m-auto px-4">
-    <h2 className="text-2xl font-semibold">Technologies</h2>
+    <h2 className="text-4xl font-semibold mb-6 gradiant-text" style={{ textShadow: '0px 12px 25px rgba(0, 150, 255)' }}>Technologies</h2>
     <div className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-4">
       {canvasRefs.map((canvasRef, index) => (
         <div key={index} className="flex flex-col items-center justify-center">
@@ -340,71 +340,66 @@ function App() {
 
 
         {/* Additional skills section */}
-        <section  className=" py-12 mt-15 max-w-7xl flex justify-center items-center mx-auto" id="additional-skills">
-          <div className="container m-auto px-4 py-4 ">
-            <h2 className="text-4xl font-semibold mb-6 gradiant-text" style={{ textShadow: '0px 12px 25px rgba(0, 150, 255)' }}>
-              Additional skills
-            </h2>
-            <div className="bounce-effect">
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-28 mt-12 w-[70%]">
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  Git
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  Wordpress
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  Teamwork
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                Creativity
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  Engagement
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                Adaptability
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                Leadership Skills
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-44 mt-4 sm:mt-6 w-[80%]">
-             
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                Time Management
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                Problem Solving
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                Quick Learning
-                </p>
-              </div>
-             
-              </div>
-            </div>
-          </div>
-        </section>
+        <section className="py-12 mt-15 max-w-6xl flex justify-center items-center mx-auto" id="additional-skills">
+  <div className="container m-auto px-4 py-4">
+    <h2 className="text-4xl mb-15  ml-10 font-semibold gradiant-text" style={{ textShadow: '0px 12px 25px rgba(0, 150, 255)' }}>
+      Additional skills
+    </h2>
+    <div className="grid grid-cols-1 text-2xl mt-20 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div className="bounce-effect">
+        <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+          Git
+        </p>
+      </div>
+      <div className="bounce-effect">
+        <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+          Wordpress
+        </p>
+      </div>
+      <div className="bounce-effect">
+        <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+          Teamwork
+        </p>
+      </div>
+      <div className="bounce-effect">
+        <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+          Creativity
+        </p>
+      </div>
+      <div className="bounce-effect">
+        <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+          Engagement
+        </p>
+      </div>
+      <div className="bounce-effect">
+        <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+          Adaptability
+        </p>
+      </div>
+      <div className="bounce-effect">
+        <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+          Leadership Skills
+        </p>
+      </div>
+      <div className="bounce-effect">
+        <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+          Time Management
+        </p>
+      </div>
+      <div className="bounce-effect">
+        <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+          Problem Solving
+        </p>
+      </div>
+      <div className="bounce-effect">
+        <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+          Quick Learning
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
         
         
         <section className="py-8" id="academic-journey">
@@ -442,9 +437,9 @@ function App() {
 
 
 <section className="py-10" id="experience">
-  <div className="container mx-auto px-4 py-12 mt-20 max-w-5xl">
+  <div className="container mx-auto px-4 py-12  max-w-5xl">
     {/* Experience Title */}
-    <h2 className="text-4xl font-semibold mb-6 gradiant-text" style={{ textShadow: '0px 12px 25px rgba(0, 150, 255)' }}>Experience</h2>
+    <h2 className="text-4xl font-semibold mb-20 gradiant-text" style={{ textShadow: '0px 12px 25px rgba(0, 150, 255)' }}>Experience</h2>
 
     {/* Table Container */}
     <div className="overflow-x-auto" style={{ boxShadow: '0px 12px 25px rgba(0, 150, 255)' }}>
