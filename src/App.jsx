@@ -320,8 +320,8 @@ function App() {
       
 
            {/* Technoglies section */}
-           <section className="py-10  max-w-6xl" id="technologies">
-  <div className="container  m-auto px-4 mr-20 max-w-5xl">
+           <section className="py-10  " id="technologies">
+  <div className="container mx-auto px-4 py-12  max-w-5xl">
     <h2 className="text-4xl font-semibold mb-6 gradiant-text" style={{ textShadow: '0px 12px 25px rgba(0, 150, 255)' }}>Technologies</h2>
     <div className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-4">
       {canvasRefs.map((canvasRef, index) => (
