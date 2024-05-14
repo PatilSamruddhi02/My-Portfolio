@@ -259,7 +259,7 @@ function App() {
           <h3 className="text-black text-2xl font-semibold mt-8">Parellel Wireless Website (Clone)</h3>
           <p className="text-black text-sm mt-2">Responsive HTML/CSS/JS. HTML5, CSS3 (SCSS)</p>
           <div className="flex mt-12 gap-2">
-            <a href="https://samruddhipatil-tribute-page.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex-1 text-sm text-center py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">Live preview</a>
+            <a href="https://samruddhipatil-parallel-wireless.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex-1 text-sm text-center py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">Live preview</a>
             <a href="https://github.com/PatilSamruddhi02/Parallel-Wireless" target="_blank" rel="noopener noreferrer" className="flex-1 text-sm text-center py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">Checkout GitHub</a>
           
                 </div>
